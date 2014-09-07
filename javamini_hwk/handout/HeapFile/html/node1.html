@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!--Converted with LaTeX2HTML 97.1 (release) (July 13th, 1997)
+ by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippman, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Introduction</TITLE>
+<META NAME="description" CONTENT="Introduction">
+<META NAME="keywords" CONTENT="HeapFile">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso_8859_1">
+<LINK REL="STYLESHEET" HREF="HeapFile.css">
+<LINK REL="next" HREF="node3.html">
+<LINK REL="previous" HREF="HeapFile.html">
+<LINK REL="up" HREF="HeapFile.html">
+<LINK REL="next" HREF="node2.html">
+</HEAD>
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html17"
+ HREF="node2.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="http://www.cs.wisc.edu/icons/latex2html/next_motif.gif"></A> 
+<A NAME="tex2html15"
+ HREF="HeapFile.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="http://www.cs.wisc.edu/icons/latex2html/up_motif.gif"></A> 
+<A NAME="tex2html9"
+ HREF="HeapFile.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="http://www.cs.wisc.edu/icons/latex2html/previous_motif.gif"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html18"
+ HREF="node2.html">Available Documentation</A>
+<B> Up:</B> <A NAME="tex2html16"
+ HREF="HeapFile.html">No Title</A>
+<B> Previous:</B> <A NAME="tex2html10"
+ HREF="HeapFile.html">No Title</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+<H1><A NAME="SECTION00010000000000000000">
+Introduction</A>
+</H1>
+<P>
+Welcome to Minibase, a new version of the Minirel system that has been
+used in the CS564 course project for many years.   Minibase is a small
+relational DBMS, structured  into several layers.  In this assignment,
+you will  implement the Heap file layer.   You will  be given the documentation
+for the lower layers (Buffer Manager and Disk  Space Manager), as well
+as the documents for managing records on a Heap file page.  You can
+find the package index for the above at <BR>
+<P>
+http://URL to the package...
+<P><EM>You will carry out this assignment, and subsequent ones, in teams
+of two.  Please choose a partner as soon  as possible, or send mail to
+michaell so that we can find a partner for you.</EM>
+<P>
+This assignment has three parts.  You have to do the following:
+<DL COMPACT>
+<DT>1.
+<DD>Familiarize  yourself with the Heap file, HFPage, Buffer Manager and
+Disk Space Manager interfaces.
+<DT>2.
+<DD>Implement the Heap file class.  You can ignore concurrency control and
+recovery issues,   and  concentrate   on implementing  the   interface
+routines.  You should deal with free space intelligently, using either
+a  linked  list or  page  directory to   identify pages  with room for
+records.  When  a record is deleted,  you must update your information
+about available  free space, and when a  record is inserted,  you must
+try to use free space on existing pages before allocating a new page.
+<DT>3.
+<DD>Run the tests provided by the TA.
+</DL>
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS">&#160;</A>
+<UL>
+<LI><A NAME="tex2html19"
+ HREF="node2.html#SECTION00011000000000000000">
+Available Documentation</A>
+</UL>
+<!--End of Table of Child-Links-->
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html17"
+ HREF="node2.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="http://www.cs.wisc.edu/icons/latex2html/next_motif.gif"></A> 
+<A NAME="tex2html15"
+ HREF="HeapFile.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="http://www.cs.wisc.edu/icons/latex2html/up_motif.gif"></A> 
+<A NAME="tex2html9"
+ HREF="HeapFile.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="http://www.cs.wisc.edu/icons/latex2html/previous_motif.gif"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html18"
+ HREF="node2.html">Available Documentation</A>
+<B> Up:</B> <A NAME="tex2html16"
+ HREF="HeapFile.html">No Title</A>
+<B> Previous:</B> <A NAME="tex2html10"
+ HREF="HeapFile.html">No Title</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+<I>Qingqing Ouyang</I>
+<BR><I>12/11/1998</I>
+</ADDRESS>
+</BODY>
+</HTML>
